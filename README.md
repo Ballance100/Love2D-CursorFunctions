@@ -15,7 +15,7 @@ local CursorFunctions = require("CursorFunctions")
 # Setup
 ```lua
 function love.load()
-CursorFunctions.settings(Scale,gameWidth,gameHeight,JoyStickMouseEnabled)
+CursorFunctions.Settings(Scale,gameWidth,gameHeight,JoyStickMouseEnabled)
 end
 ```
 Scale:**Bool**
@@ -27,7 +27,7 @@ Scale:**Bool**
 #### Check if the Cursor is in a certain *area* and pressing a mouse button(Type). Can be used for making buttons etc
 ##### Returns true/false
 ```lua
-CursorFunctions.Is_Clicked(Type,posX,posY,Width,Height)
+CursorFunctions.IsClicked(Type,posX,posY,Width,Height)
 ```
 <br >Type is what mouse button you want to use 1,2,3:**Int**</br >
 PosX andPosY are int's of the postion of the object:**Int**</br >
@@ -35,7 +35,7 @@ Width and Height is the size of the object:**Int**
 ### Radius
 #### Check if the Cursor is in a certain *radius* and pressing a mouse button(Type). Can be used for making buttons etc
 ```lua
-CursorFunctions.Is_Clicked(Type,posX,posY,Radius)
+CursorFunctions.IsClicked(Type,posX,posY,Radius)
 ```
 
 # Joystick
