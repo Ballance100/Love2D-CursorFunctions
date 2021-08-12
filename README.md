@@ -1,3 +1,13 @@
+# What is CursorFunctions
+### Cursor Functions allow you to check if the mouse is a certain area and/or clicking
+### It can also scale the mouse position. This can be useful when using love.graphics.scale or libraries such as push
+### It adds JoyCon support as well 
+
+
+
+
+
+
 **Load the library**
 ```lua
 local CursorFunctions = require("CursorFunctions")
