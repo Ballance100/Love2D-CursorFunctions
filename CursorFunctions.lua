@@ -1,6 +1,6 @@
 --[[MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) 2021 Ballance100
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -34,7 +34,7 @@ local JoyStick = true
 
 function dist(x1,y1, x2,y2) return ((x2-x1)^2+(y2-y1)^2)^0.5 end
 
-function CursorFunctions.settings(Scale,fgameWidth,fgameHeight,JoyStickEnabled)
+function CursorFunctions.Settings(Scale,fgameWidth,fgameHeight,JoyStickEnabled)
 	DoScale = Scale
 	gameWidth,gameHeight = fgameWidth,fgameHeight
 	JoyStick = JoyStickEnabled
