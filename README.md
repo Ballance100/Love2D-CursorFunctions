@@ -52,7 +52,7 @@ Make sure to add this in love.update or a while True loop
 ```
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) 2021 Ballance100
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
