@@ -51,7 +51,7 @@ local xScale,yScale = gameWidth/WindowXWidth,gameHeight/WindowYWidth
 return xScale,yScale
 end
 
-function CursorFunctions.check(objX,objY,objWid,objHei)--Checks if the users mouse is on the CursorFunctions
+function CursorFunctions.Check(objX,objY,objWid,objHei)--Checks if the users mouse is on the CursorFunctions
 	local MouseX,MouseY = love.mouse.getPosition()
 	if DoScale == true then
 		xScale,yScale = CursorFunctions.WindowScale()
@@ -89,7 +89,7 @@ function CursorFunctions.check(objX,objY,objWid,objHei)--Checks if the users mou
 			end
 		end
 	end
-function CursorFunctions.Is_Clicked(type,objX,objY,objWid,objHei)
+function CursorFunctions.IsClicked(type,objX,objY,objWid,objHei)
 	if love.mouse.isDown(type) then
 		local MouseX,MouseY = love.mouse.getPosition()
 		if DoScale == true then
