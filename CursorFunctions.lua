@@ -58,7 +58,7 @@ function CursorFunctions.Check(objX,objY,objWid,objHei)--Checks if the users mou
 		MouseX,MouseY = MouseX*xScale,MouseY*yScale
 	end
 	if objHei ~= nil then --Checks if the last argument was passed. If it was then it checks area of a square/rectangle. If it wasnt passed then it checks for radius
-		objWidEnd = objY +objWid--Object Width End(top right corner)
+		objWidEnd = objX +objWid--Object Width End(top right corner)
 		objHeiEnd = objY + objHei--Object Height End(bottom left corner)
 		if MouseX >= objX and MouseX <= objWidEnd and MouseY >= objY and MouseY <= objHeiEnd then
 			return true
